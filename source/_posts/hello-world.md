@@ -1,6 +1,7 @@
 ---
 title: Hello World
-  - test
+categories:
+  - 杂谈
 tags:
   - cuda
   - opencv
