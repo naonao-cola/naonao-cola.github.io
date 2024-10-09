@@ -1,6 +1,9 @@
 ---
 title: test
 date: 2024-10-09 19:33:00
+index_img: /img/bg/bg_1.jpg
+banner_img: /img/bg/bg_2.jpg
+
 categories:
   - 技术
 tags:
