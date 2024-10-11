@@ -239,6 +239,44 @@ custom_js:
 # The usage is the same as custom_js
 custom_css:
 
+# 自定义 <head> 节点中的 HTML 内容
+custom_head: ''
+
+# 自定义底部 HTML 内容（位于 footer 上方），也可用于外部引入 js css 这些操作，注意不要和 post.custom 配置冲突
+# custom_html: '
+# <!--音乐-->
+# <link rel="stylesheet" href="/dist/APlayer.min.css">
+# <div id="aplayer"></div>
+# <script src="/dist/APlayer.min.js"></script>
+# <script src="/js/music.js"></script>
+# '
+
+custom_html: '
+<!-- require APlayer -->
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<script src="/dist/APlayer.min.js"></script>
+<!-- require MetingJS -->
+<script src="/dist/Meting.min.js"></script>
+<meting-js
+server="netease"
+type="playlist"
+id="8607556419"
+style="color: #2980b9"
+class="meting"
+volume="0.5"
+autoplay="true"
+loop="all"
+mini="true"
+fixed="true"
+order="list"
+preload="auto"
+list-folded="true">
+</meting-js>
+<script>
+</script>
+'
+
+
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:
@@ -1128,3 +1166,5 @@ static_prefix:
   hint: https://lib.baomitu.com/hint.css/2.7.0/
 
   moment: https://lib.baomitu.com/moment.js/2.29.4/
+
+
