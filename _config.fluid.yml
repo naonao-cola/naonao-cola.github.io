@@ -172,8 +172,8 @@ color:
 
   # 主面板背景色
   # Color of main board
-  board_color: "#fff"
-  board_color_dark: "#252d38"
+  board_color: "#ffffff80"
+  board_color_dark: "#00000080"
 
   # 文章正文字体色
   # Color of post text
@@ -242,6 +242,8 @@ custom_js:
   - /js/start.js
   - /js/typing-effect.js
   - //cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/snowflake.min.js # 小雪花飘落
+  - /js/injector.js
+  - /js/backgroundize.js
 
 
 
@@ -251,6 +253,7 @@ custom_js:
 custom_css:
   - /css/macpanel
   - //cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/gradient.css # 头部打字机颜色效果渐变
+  - /js/cloudedGlass.css
 
 
 # 自定义 <head> 节点中的 HTML 内容
