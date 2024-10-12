@@ -240,12 +240,18 @@ custom_js:
   - /js/background.js
   - /js/fireworks.js
   - /js/start.js
+  - /js/typing-effect.js
+  - //cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/snowflake.min.js # 小雪花飘落
+
+
 
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
   - /css/macpanel
+  - //cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/gradient.css # 头部打字机颜色效果渐变
+
 
 # 自定义 <head> 节点中的 HTML 内容
 custom_head: ''
