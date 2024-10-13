@@ -294,7 +294,7 @@ custom_head: ''
 # </script>
 
 custom_html: '
-{% meting "8607556419" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:500px" "preload:none" "theme:#2980b9" "mini:true" "fixed:true"%} 
+{% meting "8607556419" "netease" "playlist" "autoplay" "mutex:true" "listmaxheight:340px" "preload:auto" "theme:#ad7a86" "mini:true" "fixed:true"%}
 '
 
 

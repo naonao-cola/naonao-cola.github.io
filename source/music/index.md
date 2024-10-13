@@ -5,5 +5,5 @@ banner_img: /img/article/banban.png
 ---
 
 
-<!-- {% meting "8607556419" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:500px" "preload:none" "theme:#2980b9"%} -->
+{% meting "8607556419" "netease" "playlist" "autoplay" "mutex:true" "listmaxheight:340px" "preload:none" "theme:#2980b9"%}
 
