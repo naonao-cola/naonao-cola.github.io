@@ -275,25 +275,26 @@ custom_head: ''
 # <script src="/dist/APlayer.min.js"></script>
 # <!-- require MetingJS -->
 # <script src="/dist/Meting.min.js"></script>
+# <meting-js
+# server="netease"
+# type="playlist"
+# id="8607556419"
+# style="color: #2980b9"
+# class="meting"
+# volume="0.5"
+# autoplay="true"
+# loop="all"
+# mini="true"
+# fixed="true"
+# order="list"
+# preload="auto"
+# list-folded="true">
+# </meting-js>
+# <script>
+# </script>
 
 custom_html: '
-<meting-js
-server="netease"
-type="playlist"
-id="8607556419"
-style="color: #2980b9"
-class="meting"
-volume="0.5"
-autoplay="true"
-loop="all"
-mini="true"
-fixed="true"
-order="list"
-preload="auto"
-list-folded="true">
-</meting-js>
-<script>
-</script>
+{% meting "8607556419" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:500px" "preload:none" "theme:#2980b9" "mini:true" "fixed:true"%} 
 '
 
 
