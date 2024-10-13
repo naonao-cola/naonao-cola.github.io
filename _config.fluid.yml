@@ -296,6 +296,8 @@ list-folded="true">
 '
 
 
+
+
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:
@@ -384,7 +386,7 @@ lazyload:
 
   # 开启后懒加载仅在文章页生效，如果自定义页面需要使用，可以在 Front-matter 里指定 `lazyload: true`
   # If true, only enable lazyload on the post page. For custom pages, you can set 'lazyload: true' in front-matter
-  onlypost: false
+  onlypost: true
 
   # 触发加载的偏移倍数，基数是视窗高度，可根据部署环境的请求速度调节
   # The factor of viewport height that triggers loading
@@ -425,11 +427,19 @@ navbar:
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
-    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
-    - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
-    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - {
+        key: '文档',
+        icon: 'iconfont icon-books',
+        submenu: [
+          { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" },
+          { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" },
+          { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill"}
+        ]
+     }
     - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
+    - { key: "music", link: "/music/", icon: "iconfont icon-music" }
+
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -529,13 +539,13 @@ footer:
   # 国内大陆服务器的备案信息
   # For Chinese mainland website policy, other areas keep disable
   beian:
-    enable: false
+    enable: true
     # ICP证号
-    icp_text: 京ICP证123456号
+    icp_text: 京ICP证931101号
     # 公安备案号，不填则只显示ICP
-    police_text: 京公网安备12345678号
+    police_text: 川公网安备931101号
     # 公安备案的编号，用于URL跳转查询
-    police_code: 12345678
+    police_code: 931101
     # 公安备案的图片. 为空时不显示备案图片
     police_icon: /img/police_beian.png
 
