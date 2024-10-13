@@ -3,24 +3,9 @@ title: music
 date: 2024-10-13 21:26:21
 ---
 
-<link rel="stylesheet" href="../dist/APlayer.min.css">
-<script src="../dist/APlayer.min.js"></script>
-<script src="../dist/Meting.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10/dist/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@1.2/dist/Meting.min.js"></script>
 
-<script src="../dist/Meting.min.js"></script>
-<meting-js
-server="netease"
-type="playlist"
-id="8607556419"
-style="color: #2980b9"
-class="meting"
-volume="0.5"
-autoplay="true"
-loop="all"
-order="list"
-preload="auto"
-list-folded="true">
-</meting-js>
-<script>
-</script>
+{% meting "8607556419" "netease" "playlist" "autoplay" "mutex:false" "listmaxheight:340px" "preload:none" "theme:#ad7a86"%}
 
