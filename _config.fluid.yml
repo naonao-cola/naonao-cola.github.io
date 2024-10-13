@@ -271,11 +271,11 @@ custom_head: ''
 # '
 
 custom_html: '
-<!-- require APlayer -->
-<link rel="stylesheet" href="/dist/APlayer.min.css">
-<script src="/dist/APlayer.min.js"></script>
-<!-- require MetingJS -->
-<script src="/dist/Meting.min.js"></script>
+# <!-- require APlayer -->
+# <link rel="stylesheet" href="/dist/APlayer.min.css">
+# <script src="/dist/APlayer.min.js"></script>
+# <!-- require MetingJS -->
+# <script src="/dist/Meting.min.js"></script>
 <meting-js
 server="netease"
 type="playlist"
