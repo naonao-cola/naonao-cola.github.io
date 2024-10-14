@@ -271,13 +271,13 @@ id="8607556419"
 style="color: #2980b9"
 class="meting"
 volume="0.5"
+autoplay="true"
+loop="all"
 mini="true"
 fixed="true"
-autoplay="true"
-mutex="false"
-loop="all"
 order="list"
 preload="auto"
+mutex="false"
 list-folded="true">
 </meting-js>
 '
