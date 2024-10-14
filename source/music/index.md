@@ -5,16 +5,11 @@ banner_img: /img/article/banban.png
 ---
 
 
-<!-- {% meting "8607556419" "netease" "playlist" "autoplay" "mutex:true" "listmaxheight:340px" "preload:none" "theme:#2980b9"%} -->
-
-<!-- require APlayer -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<!-- require MetingJS -->
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-
+<link rel="stylesheet" href="/dist/APlayer.min.css">
+<script src="/dist/APlayer.min.js"></script>
+<script src="/dist/Meting.min.js"></script>
 <meting-js
-	server="netease"
+    server="netease"
     type="playlist"
     id="8607556419"
     style="color: #e6d0b2"

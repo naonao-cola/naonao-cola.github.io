@@ -13,7 +13,6 @@
   },
   "dependencies": {
     "@adobe/css-tools": "^4.4.0",
-    "aplayer": "^1.10.1",
     "hexo": "^5.0.0",
     "hexo-all-minifier": "^0.5.2",
     "hexo-filter-emoji": "^2.2.2",
@@ -26,12 +25,10 @@
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-tag-aplayer": "^3.0.4",
     "hexo-theme-fluid": "^1.9.8",
     "hexo-util": "^3.3.0",
     "highlight.js": "^11.10.0",
     "lodash": "^4.17.21",
-    "meting": "^2.0.1",
     "moment": "^2.30.1",
     "nunjucks": "^3.2.4"
   }
