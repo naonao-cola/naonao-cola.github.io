@@ -17,8 +17,8 @@ banner_img: /img/article/banban.png
     volume="0.5"
     autoplay="true"
     loop="all"
-    listmaxheight="400px"
     order="list"
+    mutex="false"
     preload="auto"
     list-folded="true">
 </meting-js>
