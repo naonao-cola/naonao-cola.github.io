@@ -16,9 +16,8 @@ banner_img: /img/article/banban.png
     class="meting"
     volume="0.5"
     autoplay="true"
-    loop="all"
+    mutex=true
     order="list"
-    mutex="false"
     preload="auto"
     list-folded="true">
 </meting-js>
