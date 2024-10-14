@@ -12,14 +12,13 @@ banner_img: /img/article/banban.png
     server="netease"
     type="playlist"
     id="8607556419"
-    style="color: #e6d0b2"
+    style="color: #2980b9"
     class="meting"
     volume="0.5"
     autoplay="true"
     loop="all"
-    mutex="true"
     listmaxheight="400px"
     order="list"
     preload="auto"
-    list-folded="false">
+    list-folded="true">
 </meting-js>
