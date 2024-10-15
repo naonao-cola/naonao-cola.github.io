@@ -418,7 +418,6 @@ navbar:
           { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill"}
         ]
      }
-    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
     - { key: "links", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "music", link: "/music/", icon: "iconfont icon-music" }
 
