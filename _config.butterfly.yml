@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo: /img/bg/peep-7.png
+  logo: 
   display_title: true
   # Whether to fix navigation bar
   fixed: false
@@ -24,7 +24,6 @@ menu:
   List||fas fa-list:
     Music: /music/ || fas fa-music
   Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
   #   Movie: /movies/ || fas fa-video
 
 # --------------------------------------
@@ -51,7 +50,7 @@ code_blocks:
 #   icon: link || the description || color
 social:
   fab fa-github: https://github.com/naonao-cola || Github || '#24292e'
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
+  fas fa-envelope: mailto:1319144981@aliyun.com || Email || '#4a7dbe'
 
 # --------------------------------------
 # Image Settings
@@ -70,7 +69,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: /img/bg/bg_1.jpg
 
 # The banner image of archive page
 archive_img:
@@ -167,7 +166,8 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
-  sub:
+  sub: 
+    - 当时明月在 曾照彩云归
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -289,7 +289,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/naonao-cola
   card_announcement:
     enable: true
     content: This is my Blog
