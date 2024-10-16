@@ -1,6 +1,7 @@
 ---
 title: link
 date: 2024-10-15 15:20:03
+type: 'link'
 random: true
 ---
 - class_name: 友情鏈接

@@ -11,7 +11,7 @@
 
 nav:
   # Navigation bar logo image
-  logo: 
+  logo:
   display_title: true
   # Whether to fix navigation bar
   fixed: false
@@ -91,7 +91,7 @@ category_img:
 category_per_img:
 
 # The background image of footer
-footer_img: false
+footer_img: true
 
 # Website Background
 # Can set it to color or image url
@@ -104,7 +104,10 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    # - xxx.jpg
+    - img/article/1.png
+    - img/article/2.png
+    - img/article/3.png
+
 
 # Replace Broken Images
 error_img:
@@ -166,8 +169,7 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
-  sub: 
-    - 当时明月在 曾照彩云归
+  sub: 当时明月在 曾照彩云归
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
@@ -292,7 +294,7 @@ aside:
       link: https://github.com/naonao-cola
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的博客
   card_recent_post:
     enable: true
     # If set 0 will show all
