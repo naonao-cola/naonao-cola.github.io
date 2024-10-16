@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 闹闹的博客
+title: 闹闹
 subtitle: ''
 description: ''
 keywords:
@@ -108,3 +108,5 @@ deploy:
 
 aplayer:
   meting: true
+
+
