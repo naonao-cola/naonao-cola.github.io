@@ -476,7 +476,7 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use: 
+  use:
   placeholder:
 
   # Algolia Search
@@ -991,7 +991,7 @@ pangu:
 lazyload:
   enable: false
   # Specify the field to use lazyload (site or post)
-  field: site
+  field: post
   placeholder:
   blur: false
 
@@ -1032,11 +1032,11 @@ inject:
     #- <link rel="stylesheet" href="/js/footer.css">
   bottom:
     #- <script src="/js/fish.js"></script>
-    #- <script src="https://gcore.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script>
-    # - <script src="/js/runtime.js"></script>
-    # - <script src="/js/runtime.css"></script>
-    - <script src="/js/jquery.min.js"></script>
-    - <script src="/js/fishes.js"></script>
+    - <script src="/js/runtime.js"></script>
+    - <script src="/js/runtime.css"></script>
+    # - <script src="https://gcore.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script>
+    # - <script src="/js/jquery.min.js"></script>
+    # - <script src="/js/fishes.js"></script>
     - <script src="/dist/APlayer.min.js"></script>
     - <script src="/dist/Meting.min.js"></script>
     - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" > </meting-js>
