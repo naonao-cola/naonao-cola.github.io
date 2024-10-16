@@ -1027,7 +1027,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    #- <link rel="stylesheet" href="/js/xxx.css">
+    # - <link rel="stylesheet" href="/js/xxx.css">
     - <link rel="stylesheet" href="/dist/APlayer.min.css">
     #- <link rel="stylesheet" href="/js/footer.css">
   bottom:
@@ -1041,6 +1041,8 @@ inject:
     - <script src="/dist/Meting.min.js"></script>
     - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" > </meting-js>
     - <script src="/js/background.js"></script>
+    - <script src="/js/jquery.min.js" defer data-pjax></script>
+    - <script src="/js/fishes.js" defer data-pjax></script>
     - <script src="/js/start.js"></script>
     - <script src="/js/injector.js"></script>
     - <script src="/js/backgroundize.js"></script>
