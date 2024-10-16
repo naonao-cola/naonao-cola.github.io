@@ -66,29 +66,29 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img:
+default_top_img: /img/article/abc.png
 
 # The banner image of index page
 index_img: /img/bg/bg_1.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: /img/article/girl5.png
 
 # Note: tag page, not tags page
-tag_img:
+tag_img: /img/article/13.png
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img:
+tag_per_img: /img/article/13.png
 
 # Note: category page, not categories page
-category_img:
+category_img: /img/article/green.png
 
 # The banner image of category page, you can set the banner image for each category
 # Format:
 #  - category name: xxxxx
-category_per_img:
+category_per_img: /img/article/green.png
 
 # The background image of footer
 footer_img: true
@@ -290,7 +290,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description:
+    description: "进一寸有一寸的欢喜"
     button:
       enable: true
       icon: fab fa-github
@@ -845,11 +845,11 @@ activate_power_mode:
 # canvas_ribbon
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   # The size of ribbon
   size: 150
   # The opacity of ribbon (0 ~ 1)
-  alpha: 0.2
+  alpha: 0.4
   zIndex: -1
   click_to_change: false
   mobile: false
@@ -911,7 +911,7 @@ lightbox: fancybox
 
 # Series
 series:
-  enable: false
+  enable: true
   # Order by title or date
   orderBy: 'title'
   # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -927,7 +927,7 @@ abcjs:
 # Mermaid
 # https://github.com/mermaid-js/mermaid
 mermaid:
-  enable: false
+  enable: true
   # Write Mermaid diagrams using code blocks
   code_write: false
   # built-in themes: default / forest / dark / neutral
@@ -1026,17 +1026,10 @@ css_prefix: true
 # Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
-    # - <link rel="stylesheet" href="/js/xxx.css">
     - <link rel="stylesheet" href="/dist/APlayer.min.css">
-    #- <link rel="stylesheet" href="/js/footer.css">
   bottom:
-    #- <script src="/js/fish.js"></script>
     - <script src="/js/runtime.js"></script>
     - <script src="/js/runtime.css"></script>
-    # - <script src="https://gcore.jsdelivr.net/gh/xiabo2/CDN@latest/fishes.js"></script>
-    # - <script src="/js/jquery.min.js"></script>
-    # - <script src="/js/fishes.js"></script>
     - <script src="/dist/APlayer.min.js"></script>
     - <script src="/dist/Meting.min.js"></script>
     - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" > </meting-js>
@@ -1049,6 +1042,7 @@ inject:
     - <script src="/js/cloudedGlass.css"></script>
     - <script src="//cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/snowflake.min.js"></script>
     - <script src="/js/typing-effect.js"></script>
+    - <script src="/js/back.js"></script>
 
 
 
