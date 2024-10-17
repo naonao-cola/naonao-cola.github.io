@@ -168,9 +168,8 @@ danger 提示塊標籤
 {% endnote %}
 
 <div class="gallery-group-main">
-{% galleryGroup '壁紙' '收藏的一些壁紙' '/Gallery/wallpaper' https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png %}
+{% galleryGroup '壁紙' '收藏的一些壁紙' '/photo/test_img' /photo/test_img/bg_1.jpg %}
 {% galleryGroup '漫威' '關於漫威的圖片' '/Gallery/marvel' https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg %}
-{% galleryGroup 'OH MY GIRL' '關於OH MY GIRL的圖片' '/Gallery/ohmygirl' https://i.loli.net/2019/12/25/hOqbQ3BIwa6KWpo.jpg %}
 </div>
 
 
@@ -272,3 +271,55 @@ This is my website, click the button {% btn 'https://butterfly.js.org/',Butterfl
 
 臣亮言：{% label 先帝 %}創業未半，而{% label 中道崩殂 blue %}。今天下三分，{% label 益州疲敝 pink %}，此誠{% label 危急存亡之秋 red %}也！然侍衞之臣，不懈於內；{% label 忠志之士 purple %}，忘身於外者，蓋追先帝之殊遇，欲報之於陛下也。誠宜開張聖聽，以光先帝遺德，恢弘志士之氣；不宜妄自菲薄，引喻失義，以塞忠諫之路也。
 宮中、府中，俱為一體；陟罰臧否，不宜異同。若有{% label 作奸 orange %}、{% label 犯科 green %}，及為忠善者，宜付有司，論其刑賞，以昭陛下平明之治；不宜偏私，使內外異法也。
+
+
+
+- 彩色文字
+在一段话中方便插入各种颜色的标签，包括：{% span red, 红色 %}、{% span yellow, 黄色 %}、{% span green, 绿色 %}、{% span cyan, 青色 %}、{% span blue, 蓝色 %}、{% span gray, 灰色 %}。
+- 超大号文字
+文档「开始」页面中的标题部分就是超大号文字。
+{% span center logo large, Volantis %}
+{% span center small, A Wonderful Theme for Hexo %}
+
+
+
+{% link GitHub, https://github.com, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@450ea647ca67bd386416a689f3eb1bc6a508b3b9/2021/01/23/f7ac7b26db76ada1704f6af09bedacbe.webp %}
+
+
+{% link 写法总结, https://blog.imzjw.cn/posts/bfdocs/index.html, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@450ea647ca67bd386416a689f3eb1bc6a508b3b9/2021/01/23/f7ac7b26db76ada1704f6af09bedacbe.webp %}
+
+
+
+{% btns circle grid5 %}
+{% cell GitHub, https://github.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@450ea647ca67bd386416a689f3eb1bc6a508b3b9/2021/01/23/f7ac7b26db76ada1704f6af09bedacbe.webp %}
+{% cell 哔哩哔哩, https://www.bilibili.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@e642ee265c8ae2bbd0994716aa12b3adbe07f2c4/2021/01/23/2ceca69a212d3b9988bbd2c41edc636c.webp %}
+{% cell Pixiv, https://www.pixiv.net/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@5c4fc20944c706aa452c31d1bddbdcc672e8c6ab/2021/01/23/7658d06315d32bcf0c954b3d8e8879e0.webp %}
+{% cell YouTube, https://www.youtube.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@ff4781678ea6227f5824e3c8bfd5cc27441db4da/2021/01/23/f4e292c780275465c9150eb3cb0785a4.webp %}
+{% cell 今日热榜, https://tophub.today/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@11fff6ed270722d709eb0ac88ce47f468c21d2ba/2021/01/23/cd22cd9d34d7d7bd58114d7d7a195822.webp %}
+{% endbtns %}
+
+
+{% btns circle grid5 %}
+{% cell GitHub, https://github.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@450ea647ca67bd386416a689f3eb1bc6a508b3b9/2021/01/23/f7ac7b26db76ada1704f6af09bedacbe.webp %}
+{% cell 哔哩哔哩, https://www.bilibili.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@e642ee265c8ae2bbd0994716aa12b3adbe07f2c4/2021/01/23/2ceca69a212d3b9988bbd2c41edc636c.webp %}
+{% cell Pixiv, https://www.pixiv.net/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@5c4fc20944c706aa452c31d1bddbdcc672e8c6ab/2021/01/23/7658d06315d32bcf0c954b3d8e8879e0.webp %}
+{% cell YouTube, https://www.youtube.com/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@ff4781678ea6227f5824e3c8bfd5cc27441db4da/2021/01/23/f4e292c780275465c9150eb3cb0785a4.webp %}
+{% cell 今日热榜, https://tophub.today/, https://jsd.onmicrosoft.cn/gh/cpddo/p_img@11fff6ed270722d709eb0ac88ce47f468c21d2ba/2021/01/23/cd22cd9d34d7d7bd58114d7d7a195822.webp %}
+{% endbtns %}
+
+
+{% btns circle center grid5 %}
+<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
+  <i class='fab fa-apple'></i>
+  <b>心率管家</b>
+  {% p red, 专业版 %}
+  <img src='https://jsd.onmicrosoft.cn/gh/xaoxuu/cdn-assets/qrcode/heartmate_pro.png'>
+</a>
+<a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1'>
+  <i class='fab fa-apple'></i>
+  <b>心率管家</b>
+  {% p green, 免费版 %}
+  <img src='https://jsd.onmicrosoft.cn/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png'>
+</a>
+{% endbtns %}
+
