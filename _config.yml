@@ -137,3 +137,20 @@ service_worker:
   verbose: true
 
 
+
+
+algolia:
+  appId: "42S7DLT5H3"
+  apiKey: "06efd083dbe62a7b2b89d775a22429f0"
+  adminApiKey: "ddc6c8f8fecefb4e9cbaa0252f00c9cd"
+  chunkSize: 5000
+  indexName: "blog"
+  fields:
+    - content:strip:truncate,0,500
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
