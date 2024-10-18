@@ -24,8 +24,9 @@ menu:
   List||fas fa-list:
     Music: /music/ || fas fa-music
     Photo: /photo/ || fas fa-images
+    Link: /link/ || fas fa-link
   Comments: /comments/ || fas fa-link
-  Link: /link/ || fas fa-link
+  
   #   Movie: /movies/ || fas fa-video
 
 # --------------------------------------
@@ -71,18 +72,18 @@ disable_top_img: false
 default_top_img: /img/article/abc.png
 
 # The banner image of index page
-index_img: /img/bg/bg_1.jpg
+index_img: /img/bg/cat_1.jpg
 
 # The banner image of archive page
-archive_img: /img/article/girl5.png
+archive_img: /img/article/ban6.png
 
 # Note: tag page, not tags page
-tag_img: /img/article/13.png
+tag_img: /img/article/sky.png
 
 # The banner image of tag page, you can set the banner image for each tag
 # Format:
 #  - tag name: xxxxx
-tag_per_img: /img/article/13.png
+tag_per_img: /img/article/sky.png
 
 # Note: category page, not categories page
 category_img: /img/article/green.png
@@ -183,7 +184,7 @@ subtitle:
 # 5: Info displayed on the cover
 # 6: Masonry layout - Cover on top, info on the bottom
 # 7: Masonry layout - Info displayed on the cover
-index_layout: 3
+index_layout: 6
 
 # Display the article introduction on homepage
 # 1: description
