@@ -19,5 +19,5 @@ banner_img: /img/article/banban.png
     mutex=true
     order="list"
     preload="auto"
-    list-folded="true">
+    list-folded="false">
 </meting-js>

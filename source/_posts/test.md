@@ -168,7 +168,7 @@ danger 提示塊標籤
 {% endnote %}
 
 <div class="gallery-group-main">
-{% galleryGroup '壁紙' '收藏的一些壁紙' '/photo/test_img' /photo/test_img/bg_1.jpg %}
+{% galleryGroup '壁紙' '收藏的一些壁紙' '/photo/' /mg/bg/bg_1.jpg %}
 {% galleryGroup '漫威' '關於漫威的圖片' '/Gallery/marvel' https://i.loli.net/2019/12/25/8t97aVlp4hgyBGu.jpg %}
 </div>
 

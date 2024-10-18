@@ -23,6 +23,8 @@ menu:
   Categories: /categories/ || fas fa-folder-open
   List||fas fa-list:
     Music: /music/ || fas fa-music
+    Photo: /photo/ || fas fa-images
+  Comments: /comments/ || fas fa-link
   Link: /link/ || fas fa-link
   #   Movie: /movies/ || fas fa-video
 
@@ -1033,12 +1035,13 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/dist/APlayer.min.css">
+
   bottom:
     - <script src="/js/runtime.js"></script>
     - <script src="/js/runtime.css"></script>
     - <script src="/dist/APlayer.min.js"></script>
     - <script src="/dist/Meting.min.js"></script>
-    - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" > </meting-js>
+    - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" lrc-type="0"> </meting-js>
     - <script src="/js/background.js"></script>
     - <script src="/js/jquery.min.js" defer data-pjax></script>
     - <script src="/js/fishes.js" defer data-pjax></script>
@@ -1049,6 +1052,7 @@ inject:
     - <script src="//cdn.jsdelivr.net/gh/EmoryHuang/BlogBeautify@1.1/snowflake.min.js"></script>
     - <script src="/js/typing-effect.js"></script>
     - <script src="/js/back.js"></script>
+
 
 
 
@@ -1142,3 +1146,27 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+  # envelope_comment
+  # see https://akilar.top/posts/e2d3c450/
+  envelope_comment:
+    enable: true #控制开关
+    custom_pic:
+      cover: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+      line: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+      beforeimg: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+      afterimg: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+    message: #信笺正文，多行文本，写法如下
+      - 有什么想问的？
+      - 有什么想说的？
+      - 有什么想吐槽的？
+      - 哪怕是有什么想吃的，都可以告诉我哦~
+    bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+    height: #1050px，信封划出的高度
+    path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+    front_matter: #【可选】comments页面的 front_matter 配置
+      title: 留言板
+      comments: true
+
+
+
