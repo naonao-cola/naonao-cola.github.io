@@ -1,6 +1,7 @@
 ---
 title: photo
 date: 2024-10-17 15:48:48
+top_img: /img/bg/bg_2.jpg
 ---
 {% gallery %}
 ![](/img/bg/bg_1.jpg)

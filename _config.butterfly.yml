@@ -69,7 +69,7 @@ avatar:
 disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
-default_top_img: /img/article/abc.png
+default_top_img: /img/bg/bg_2.jpg
 
 # The banner image of index page
 index_img: /img/bg/cat_1.jpg
@@ -98,7 +98,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background:
+background: transparent
 
 cover:
   # Disable the cover or not
@@ -1042,7 +1042,7 @@ inject:
     - <script src="/js/runtime.css"></script>
     - <script src="/dist/APlayer.min.js"></script>
     - <script src="/dist/Meting.min.js"></script>
-    - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" lrc-type="0"> </meting-js>
+    - <meting-js server="netease" type="playlist" id="8607556419" class="meting" volume="0.5" autoplay="true" mini="true" fixed="true" order="list" preload="auto" list-folded="true" lrc-type="0"></meting-js>
     - <script src="/js/background.js"></script>
     - <script src="/js/jquery.min.js" defer data-pjax></script>
     - <script src="/js/fishes.js" defer data-pjax></script>
@@ -1132,42 +1132,7 @@ CDN:
     # waline_js:
 
 
-# tag-plugins-plus
-# see https://akilar.top/posts/615e2dec/
-tag_plugins:
-  enable: true # 开关
-  priority: 5 #过滤器优先权
-  issues: false #issues标签依赖注入开关
-  link:
-    placeholder: /img/link.png #link_card标签默认的图标图片
-  CDN:
-    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖
-    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
-    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
 
-  # envelope_comment
-  # see https://akilar.top/posts/e2d3c450/
-  envelope_comment:
-    enable: true #控制开关
-    custom_pic:
-      cover: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-      line: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-      beforeimg: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-      afterimg: https://unpkg.zhimg.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
-    message: #信笺正文，多行文本，写法如下
-      - 有什么想问的？
-      - 有什么想说的？
-      - 有什么想吐槽的？
-      - 哪怕是有什么想吃的，都可以告诉我哦~
-    bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
-    height: #1050px，信封划出的高度
-    path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
-    front_matter: #【可选】comments页面的 front_matter 配置
-      title: 留言板
-      comments: true
 
 
 

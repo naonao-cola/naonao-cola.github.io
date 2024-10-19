@@ -2,7 +2,7 @@
 title: link
 date: 2024-10-15 15:20:03
 type: 'link'
-random: true
+top_img: /img/bg/bg_4.jpg
 ---
 - class_name: 友情鏈接
   class_desc: 那些人，那些事
