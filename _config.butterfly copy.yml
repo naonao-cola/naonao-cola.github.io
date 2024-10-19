@@ -21,12 +21,11 @@ menu:
   Archives: /archives/ || fas fa-archive
   Tags: /tags/ || fas fa-tags
   Categories: /categories/ || fas fa-folder-open
-  Comments: /comments/ || fas fa-envelope
   List||fas fa-list:
     Music: /music/ || fas fa-music
     Photo: /photo/ || fas fa-images
     Link: /link/ || fas fa-link
-  
+  Comments: /comments/ || fas fa-link
   
   #   Movie: /movies/ || fas fa-video
 
@@ -99,7 +98,7 @@ footer_img: true
 
 # Website Background
 # Can set it to color or image url
-background: 
+background: transparent
 
 cover:
   # Disable the cover or not
@@ -792,7 +791,7 @@ text_align_justify: true
 
 # Add a mask to the header and footer
 mask:
-  header: false
+  header: true
   footer: true
 
 # Loading Animation
